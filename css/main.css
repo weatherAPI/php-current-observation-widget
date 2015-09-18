@@ -1,0 +1,15 @@
+div#main {
+    border: 1px solid #efefef;
+    overflow: auto;
+    padding: 10px;
+    width: 200px;
+}
+img {
+    float: left;
+    margin: 0 10px 0 0;
+}
+ul {
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
