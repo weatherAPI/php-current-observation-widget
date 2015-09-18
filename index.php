@@ -6,7 +6,7 @@
   </head>
     <body>
         <?php
-            $curl = curl_init("http://api.weather.com/v2/aggregate/v2loc;v2obs;v2fcstdaily3;v2fcsthourly6;v2astro?geocode=40.69,-73.99&format=json&language=en-US&R2.units=e&R3.units=e&R4.units=e&R5.units=e&R5.days=2&apiKey=tsybhwupcwn4mw55m77euxh6r5pe639b");
+            $curl = curl_init("http://api.weather.com/v2/aggregate/v2loc;v2obs;v2fcstdaily3;v2fcsthourly6;v2astro?geocode=40.69,-73.99&format=json&language=en-US&R2.units=e&R3.units=e&R4.units=e&R5.units=e&R5.days=2&apiKey=[CLIENTKEY]");
             curl_setopt($curl, CURLOPT_TIMEOUT, 5);
             curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 5);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
